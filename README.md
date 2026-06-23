@@ -14,6 +14,58 @@ The database supports analysis of:
 - Utility provider coverage
 - Electric range statistics
 
+## Team Members
+
+- Keith Smith
+- Chigozie Uwandu
+- Justin Seibure
+- Miguel Rivas
+- Ryan Tran
+
+## Technical Highlights
+
+- Designed and implemented a relational database in Third Normal Form (3NF)
+- Created seven normalized tables with primary and foreign key relationships
+- Imported, cleaned, and transformed real-world electric vehicle population data
+- Implemented SQL views utilizing JOINs, GROUP BY, HAVING clauses, and subqueries
+- Developed analytical queries to identify electric vehicle adoption patterns and trends
+- Built an Entity Relationship Diagram (ERD) to model database structure and relationships
+- Applied database design, normalization, and data integrity principles
+
+## Database Tables
+
+### Core Tables
+- Vehicle
+- Make
+- Model
+- Location
+- Utility
+
+### Linking Tables
+- Vehicle_Inventory
+- Location_Utility
+
+### Key Data Elements
+- Vehicle make and model information
+- Electric vehicle type (BEV and PHEV)
+- Electric range statistics
+- CAFV eligibility status
+- Geographic location data
+- Utility provider information
+
+## Example SQL Features
+
+This project demonstrates:
+
+- INNER JOIN operations across multiple tables
+- Aggregate functions including COUNT() and AVG()
+- GROUP BY and HAVING clauses
+- Filtering with WHERE conditions
+- Subqueries for comparative analysis
+- Many-to-many relationships using linking tables
+- Data normalization and referential integrity
+- Analytical SQL views for reporting and decision support
+
 ## Technologies
 
 - SQL
@@ -23,35 +75,18 @@ The database supports analysis of:
 - Entity Relationship Diagrams (ERD)
 - Data Normalization
 
-## Database Structure
-
-The database consists of:
-
-- Vehicle
-- Make
-- Model
-- Location
-- Utility
-- Vehicle_Inventory
-- Location_Utility
-
-All tables were normalized to Third Normal Form (3NF).
-
 ## Files
 
 ### SQL Scripts
-
 - `sql/EVP.sql`
 - `sql/team_6_evp_queries.sql`
 
 ### Documentation
-
-- ERD Diagram
 - Final Project Report
+- Entity Relationship Diagram (ERD)
 
 ### Dataset
-
-- Cleaned Electric Vehicle Population dataset
+- Cleaned Electric Vehicle Population Dataset
 
 ## Course
 
