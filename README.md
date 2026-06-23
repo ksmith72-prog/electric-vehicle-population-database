@@ -2,6 +2,10 @@
 
 University of Maryland | INST327 Database Design & Modeling
 
+## Database Schema
+
+![ERD](docs/ERD.pdf)
+
 ## Project Overview
 
 Designed and implemented a normalized relational database to analyze electric vehicle population data from Washington State.
